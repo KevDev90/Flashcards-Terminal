@@ -56,9 +56,9 @@ describe("Round", function() {
   });
 
   it("should take a turn", function() {
-    expect(round2.takeTurn("pug")).to.equal("incorrect!");
-    expect(round2.takeTurn("gallbladder")).to.equal("correct!");
-    expect(round2.takeTurn("Lex")).to.equal("incorrect!");
+    expect(round2.takeTurn("pug")).to.equal("Incorrect!");
+    expect(round2.takeTurn("gallbladder")).to.equal("Correct!");
+    expect(round2.takeTurn("Lex")).to.equal("Incorrect!");
   });
 
   it("should calculate percentage of correct answers", function() {
@@ -74,7 +74,7 @@ describe("Round", function() {
     round2.takeTurn("gallbladder");
     round2.takeTurn("Fitzgerald");
     expect(round2.endRound()).to.equal(
-      "** Round over! ** You answered 67% of the questions correctly!"
+      "** Round over! ** You answered 67% of the questions correctly in 0 seconds!"
     );
   });
 });
