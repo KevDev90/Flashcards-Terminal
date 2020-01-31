@@ -66,7 +66,7 @@ describe("Round", function() {
     round2.takeTurn("gallbladder");
     round2.takeTurn("Fitzgerald");
     expect(round2.incorrectAnswers.length).to.equal(2);
-    expect(round2.calculatePercentCorrect()).to.equal(67);
+    expect(round2.calculatePercentCorrect()).to.equal(33);
   });
 
   it("should output the percentage of correct answers at the end of the round", function() {
@@ -74,7 +74,7 @@ describe("Round", function() {
     round2.takeTurn("gallbladder");
     round2.takeTurn("Fitzgerald");
     expect(round2.endRound()).to.equal(
-      "** Round over! ** You answered 67% of the questions correctly in 0 seconds!"
+      "** Round over! ** You answered 33% of the questions correctly in 0 seconds!"
     );
   });
 });
