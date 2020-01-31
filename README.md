@@ -12,7 +12,9 @@ To run the game, you will be playing in your terminal, as shown in the example G
 
 In your terminal, change into your new directory, and clone down the repo. In your terminal, run the command node index.js, hit enter, and test your knowledge!
 
-![Gif of game running in the terminal](https://gfycat.com/ultimatevalideyelashpitviper)
+## Gameplay
+
+![1](https://user-images.githubusercontent.com/49801538/73555217-70242480-440a-11ea-9982-c9435891645a.gif)
 
 #### By [Kevin Johnson](https://github.com/kevdev90)
 
